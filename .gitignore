@@ -4,9 +4,11 @@
 /node_modules
 /server/node_modules
 /html-template/node_modules
+
 /.pnp
 .pnp.js
-
+/html-template
+/server
 # testing
 /coverage
 
