@@ -60,7 +60,8 @@ export default function Modal({ open, control }) {
         e.preventDefault();
         if (conversation.length > 0) {
             //edit conversation
-            editConversation({
+          editConversation({
+                sender: myEmail,
                 id: conversation[0].id,
                 data: {
                     participants: `${myEmail}-${participate[0].email}`,
@@ -72,12 +73,15 @@ export default function Modal({ open, control }) {
         }
         else {
             // add conversation
-            addConversation({
-                    participants: `${myEmail}-${participate[0].email}`,
-                    users: [user, participate[0]],
-                    message,
-                    timestamp: new Date().getTime()
-                })
+          addConversation({
+            sender: myEmail,
+            data: {
+              participants: `${myEmail}-${participate[0].email}`,
+              users: [user, participate[0]],
+              message,
+              timestamp: new Date().getTime()
+            }
+          })
         }
     }
   return (

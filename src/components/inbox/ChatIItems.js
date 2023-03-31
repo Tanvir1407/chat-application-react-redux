@@ -18,9 +18,10 @@ export default function ChatItems() {
     isError,
     error,
   } = useGetConversationsQuery(email);
-
+  console.log(conversations)
   const dispatch = useDispatch()
   const navigate = useNavigate()
+
   useEffect(() => {
     if (error?.data === "jwt expired") {
       dispatch(userLoggedOut())
