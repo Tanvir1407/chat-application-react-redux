@@ -2,35 +2,40 @@
   "users": [
     {
       "email": "mt14050@gmail.com",
-      "password": "$2a$10$YRi9WfL3Mp7OxraiikeIy.EGZ2SlRxtmFhZ1S4tDbhKTmWsLm4Cza",
+      "password": "$2a$10$5IwBm/bnwr47cKkZq3.YOOMgpKaNP2t8KI04exgmCpfg713DlAi1a",
       "name": "Tanvir",
       "id": 1
     },
     {
-      "email": "abdul@gmail.com",
-      "password": "$2a$10$tTNlr4H1JYwLEJC4RUwo8euoYhsYVIluup.uzUXMaTzuXw5729b9C",
-      "name": "Abdul kuddus",
+      "email": "zakiya@gmail.com",
+      "password": "$2a$10$opa6tcCLWYWmfyGW6hIZAeZmhWEH56iVwPjD/HDBTm3XWndrk4DkC",
+      "name": "Zakiya",
       "id": 2
+    },
+    {
+      "email": "abdul@gmail.com",
+      "password": "$2a$10$SPrBvYNS9MNO7vBiVeHfKuX58kDyDh2SpFyDk0P2IDS3oaal7XRgO",
+      "name": "Abdul",
+      "id": 3
     }
   ],
   "conversations": [
     {
-      "participants": "mt14050@gmail.com-abdul@gmail.com",
+      "participants": "zakiya@gmail.com-mt14050@gmail.com",
       "users": [
+        {
+          "email": "zakiya@gmail.com",
+          "name": "Zakiya",
+          "id": 2
+        },
         {
           "email": "mt14050@gmail.com",
           "name": "Tanvir",
           "id": 1
-        },
-        {
-          "email": "abdul@gmail.com",
-          "password": "$2a$10$tTNlr4H1JYwLEJC4RUwo8euoYhsYVIluup.uzUXMaTzuXw5729b9C",
-          "name": "Abdul kuddus",
-          "id": 2
         }
       ],
-      "message": "kmn asen",
-      "timestamp": 1680254039628,
+      "message": "kmn aso?",
+      "timestamp": 1680332930699,
       "id": 1
     }
   ],
@@ -43,30 +48,29 @@
         "id": 1
       },
       "receiver": {
-        "email": "abdul@gmail.com",
-        "password": "$2a$10$tTNlr4H1JYwLEJC4RUwo8euoYhsYVIluup.uzUXMaTzuXw5729b9C",
-        "name": "Abdul kuddus",
+        "email": "zakiya@gmail.com",
+        "password": "$2a$10$opa6tcCLWYWmfyGW6hIZAeZmhWEH56iVwPjD/HDBTm3XWndrk4DkC",
+        "name": "Zakiya",
         "id": 2
       },
-      "message": "hello",
-      "timestamp": 1680253877820,
+      "message": "hi\n",
+      "timestamp": 1680332907053,
       "id": 1
     },
     {
       "conversationId": 1,
       "sender": {
+        "email": "zakiya@gmail.com",
+        "name": "Zakiya",
+        "id": 2
+      },
+      "receiver": {
         "email": "mt14050@gmail.com",
         "name": "Tanvir",
         "id": 1
       },
-      "receiver": {
-        "email": "abdul@gmail.com",
-        "password": "$2a$10$tTNlr4H1JYwLEJC4RUwo8euoYhsYVIluup.uzUXMaTzuXw5729b9C",
-        "name": "Abdul kuddus",
-        "id": 2
-      },
-      "message": "kmn asen",
-      "timestamp": 1680254039628,
+      "message": "kmn aso?",
+      "timestamp": 1680332930699,
       "id": 2
     }
   ]

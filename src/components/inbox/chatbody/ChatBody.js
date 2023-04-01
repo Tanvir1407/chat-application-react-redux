@@ -8,6 +8,7 @@ import Error from "../../ui/Error";
 export default function ChatBody() {
   const { id } = useParams();
   const { data: messages, isLoading, isError, error } = useGetMessagesQuery(id);
+  console.log(messages)
 
   let content = null;
   if (isLoading) {
